@@ -2,6 +2,9 @@ from redis import Redis
 import json
 import time
 
+# run redis by docker
+# docker run -p 6379:6379 --name some-redis -d redis
+
 
 redis_host = 'localhost'
 redis_port = 6379
